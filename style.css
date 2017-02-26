@@ -69,12 +69,15 @@ li a {
 }
 
 /*...........Introduction...........*/
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
 .page-container {
-    max-width: 906px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 100px;
-    padding-top: 100px;
     font-weight: 100;
 
 }
@@ -83,9 +86,7 @@ li a {
    
     font-size: 24px;
     font-weight: 100;
-    max-width: 906px;
     margin: 0 auto;
-    padding-bottom: 100px;
     padding-top: 100px;
     font-weight: 100;
 
@@ -169,4 +170,19 @@ li a {
 33.33%, 100% { left: 0%; opacity: 1; }
 }
 
+/*..............map.....................*/
+
+.info-map {
+   text-align: center;
+
+}
+
+.info-map > div {
+   text-align: left;
+
+}
+
+.info-map img {
+    width: 100%;
+}
 
