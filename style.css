@@ -70,14 +70,25 @@ li a {
 
 /*...........Introduction...........*/
 
-.intro {
-   
-    font-size: 24px;
+.page-container {
     max-width: 906px;
     margin: 0 auto;
     padding-bottom: 100px;
     padding-top: 100px;
     font-weight: 100;
+
+}
+
+.intro {
+   
+    font-size: 24px;
+    font-weight: 100;
+    max-width: 906px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-weight: 100;
+
 
 }
 
@@ -122,18 +133,20 @@ li a {
 
 .item-1, 
 .item-2 {
-    position: absolute;
+    position: relative;
     display: inline-block;
+    vertical-align: top;
     text-align: left;
     top: 1.5em;
-    width: 25%;
+    left: -1000000000px;
+    width: 50%;
     font-size: 1em;
-    -webkit-animation-delay: 5s;
+    -webkit-animation-delay: 1s;
     -webkit-animation-duration: 10s; 
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 1s;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
 }
@@ -147,11 +160,13 @@ li a {
 }
 
 @keyframes anim-1 {
-0%, 8.3% { left: 20%; opacity: 0; }
-33.33%, 100% { left: 50%; opacity: 1; }
+0%, 33.33% { left: -30%; opacity: 0; }
+66.66%, 100% { left: 0%; opacity: 1; }
 }
 
 @keyframes anim-2 {
-0%, 33.33% { left: 0%; opacity: 0; }
-66.66%, 100% { left: 25%; opacity: 1; }
+0%, 8.3% { left: -50%; opacity: 0; }
+33.33%, 100% { left: 0%; opacity: 1; }
 }
+
+
