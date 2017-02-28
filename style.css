@@ -21,7 +21,7 @@ color: #3e3e3e;
 
 /*.........navigation...........*/
 
-ul {
+ul.nav__list {
     list-style-type: none;
     margin-right: 20px;
     padding: 20px;
@@ -31,11 +31,11 @@ ul {
    
 }
 
-li {
+ul.nav__list li {
     display: inline-block;
 }
 
-li a {
+ul.nav__list li a {
     display: block;
     color: #fff;
     text-align: center;
@@ -201,7 +201,7 @@ section {
     text-align: center;
 }
 
-.horizontal-timeline {
+/*.horizontal-timeline {
     position: relative;
     display: block;
     margin: 100px;
@@ -232,13 +232,13 @@ section {
 
 /* ---- Timeline elements ---- */
 
-.horizontal-timeline li {
+/*.horizontal-timeline li {
     position: relative;
     top: -77px;
     display: inline-block;
     float: left;
     width: 150px;
-    transform: rotate(-45deg);
+ 
     font: bold 14px arial;
 }
 .horizontal-timeline li::before {
@@ -256,7 +256,7 @@ section {
 
 /* ---- Timeline details ---- */
 
-.details {
+/*.details {
     display: none;
 
     position: absolute;
@@ -285,7 +285,7 @@ section {
 
 /* ---- Hover effects ---- */
 
-.horizontal-timeline li:hover {
+/*.horizontal-timeline li:hover {
     cursor: pointer;
     color: #3e3e3e;
 }
@@ -300,4 +300,29 @@ section {
 .horizontal-timeline li:hover .details {
     display: block;
     color: #3e3e3e;
+}*/
+
+ol.horizontal-timeline li {
+    width: 260px;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 120px;
+    padding: 0 40px;
+    border-bottom: 2px solid #ab8f61;
+}
+
+ol.horizontal-timeline li p {
+    display: none;
+}
+
+ol.horizontal-timeline li span {
+    font-size: 12px;
+    color: #69593f;
+    font-family: arial;
+    display: block;
+    text-align: center;
+    width: 180px;
+    margin: auto;
+    padding-right: 25px;
 }
