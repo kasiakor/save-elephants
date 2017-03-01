@@ -303,8 +303,8 @@ section {
 }*/
 
 ol.horizontal-timeline li {
-    width: 260px;
-    height: 260px;
+    width: 265px;
+    height: 265px;
     display: inline-block;
     vertical-align: top;
     margin-bottom: 120px;
@@ -316,6 +316,10 @@ ol.horizontal-timeline li p {
     display: none;
 }
 
+ol.horizontal-timeline li img {
+    width: 100%;
+}
+
 ol.horizontal-timeline li span {
     font-size: 12px;
     color: #69593f;
@@ -325,4 +329,36 @@ ol.horizontal-timeline li span {
     width: 180px;
     margin: auto;
     padding-right: 25px;
+}
+
+ol.horizontal-timeline li:first-child,
+ol.horizontal-timeline li:last-child {
+    position: relative;
+}
+
+ol.horizontal-timeline li:first-child::before {
+    content: "";
+    position: absolute;
+    background-color: #ab8f61;
+    width: 18px;
+    height: 18px;
+    display: block;
+    bottom: -10px;
+    left: -6px;
+    border-radius: 18px;
+
+}
+
+ol.horizontal-timeline li:last-child::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: block;
+    bottom: -12px;
+    right: -5px;
+    border: 10px solid transparent;
+    border-right: 0;
+    border-left: 23px solid #ab8f61;
+    border-radius: 3px;
 }
