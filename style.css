@@ -292,4 +292,41 @@ ol.horizontal-timeline li:hover p {
     height: auto;
 }
 
+/*.......................footer........................*/
 
+
+footer {
+position: relative;
+height: auto;
+width: 100%;
+background: #cebea3;
+}
+
+.outer {
+    padding: 12px;
+}
+.wrap {
+    margin: 0 auto;
+}
+.sub {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 15%;
+    padding: 27px;
+    border-right: 1px solid #e9e4db;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sub:last-child {
+    border: 0px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#github-icon {
+    padding-bottom: 8px;
+}
