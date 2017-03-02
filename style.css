@@ -76,9 +76,11 @@ section {
 
 .page-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
     font-weight: 100;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
@@ -130,6 +132,10 @@ section {
     margin-right: 30px;
     margin-top:0;
 
+}
+
+.info-list {
+    padding-left: 0px;
 }
 
 .item-1, 
@@ -299,27 +305,31 @@ footer {
 position: relative;
 height: auto;
 width: 100%;
-background: #cebea3;
+background: #c7b595;
 }
 
 .outer {
-    padding: 12px;
+    padding: 12px 0;
 }
-.wrap {
+footer .wrap {
     margin: 0 auto;
+    white-space: nowrap;
+    font-size: 0;
 }
-.sub {
+footer .wrap .sub {
     position: relative;
     display: inline-block;
     color: white;
-    width: 15%;
-    padding: 27px;
+    width: 20%;
+    padding: 27px 10px;
     border-right: 1px solid #e9e4db;
     font-size: 14px;
     text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
 }
 
-.sub:last-child {
+footer .wrap .sub:last-child {
     border: 0px;
 }
 
@@ -330,3 +340,54 @@ background: #cebea3;
 #github-icon {
     padding-bottom: 8px;
 }
+
+
+@media screen and (max-width: 1140px) {
+    footer .wrap {
+        white-space: normal;
+    }
+
+    footer .wrap .sub {
+          width: 33%;
+    }
+}
+
+@media screen and (max-width: 520px)  {
+
+    footer .wrap .sub {
+         width: 100%;
+         border: none;
+
+    }   
+    footer .wrap .sub::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background-color: #e9e4db;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 27px;
+    }
+
+    footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
+        height: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 746px)  {
+
+    ol.horizontal-timeline li {
+         text-align: center;
+    }   
+
+    .evolution {
+        text-align: center;
+    }
+
+    .item-2, .item-1  {
+        width: 100%;
+  }
+}
+
