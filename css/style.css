@@ -60,7 +60,7 @@ ul.nav__list li a {
 
 .global-nav-container {
     margin: auto;
-    background-image: url("img/bg-1.jpg");
+    background-image: url("../img/bg-1.jpg");
     height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
