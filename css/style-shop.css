@@ -56,31 +56,36 @@ color: #3e3e3e;
     }
 
 a#my-basket, .count {
-	vertical-align: top;
 	padding-right: 20px;
 	border: none;
 	cursor: pointer;
 	text-decoration: none;
 	font-size: 15px;
 	text-align: right;
+
+
 }
 .count {
 	margin-left: 5px;
 	margin-right: 0px;
+       color: #c79e54;
+
 }
 
 
 a.checkout-link {
 	text-decoration: none;
-	vertical-align: top;
 	border: none;
 	cursor: pointer;
 	font-size: 15px;
 	color: #3e3e3e;
 }
 
+a.checkout-link span {
+      color: #c79e54;
+}
+
 .contact {
-	vertical-align: top;
 	font-size: 15px;
 	padding-right: 20px;
 	white-space: nowrap;
@@ -119,6 +124,7 @@ input {
 margin: 0;
 padding: 0;
 border:none;
+
 }
 
 .search {
@@ -133,6 +139,88 @@ height: 25px;
 cursor: pointer;
 }
 
-/*..............main manu.............*/
+/*..............dropdown menu.............*/
 
+.dropdown-menu {
+	width: 100%;
+}
 
+.nav {
+  margin-bottom: 48px;
+   border-top: solid 1px #eaeaea;
+   text-align: center;
+
+}
+.nav ul {
+  zoom: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: inline-block;
+}
+.nav ul:before,
+.nav ul:after {
+  content: "";
+  display: table;
+}
+.nav ul:after {
+  clear: both;
+}
+.nav ul > li {
+  float: left;
+  position: relative;
+  text-transform: uppercase;
+}
+.nav a {
+  display: block;
+  padding: 10px 45px;
+  line-height: 1.2em;
+  color: #fff;
+  font-size: 14px;
+    color: #3e3e3e; 
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #c79e54;
+ 
+}
+.nav li ul {
+  background: #f5f2ee;
+}
+.nav li ul li {
+  width: 200px;
+}
+.nav li ul a {
+  border: none;
+}
+.nav li ul a:hover {
+  color: #c79e54;
+
+}
+
+.nav3 ul > li:hover ul li {
+  height: 36px;
+}
+.nav3 li ul {
+  position: absolute;
+  left: 0;
+  top: 36px;
+  z-index: 1;
+}
+.nav3 li ul li {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 0.4s ease-in;
+  -moz-transition: height 0.4s ease-in;
+  -o-transition: height 0.4s ease-in;
+  transition: height 0.4s ease-in;
+}
+
+.text span {
+  padding: 20px;
+}
