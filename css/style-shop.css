@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: 'Geomanist';
-	src: url('fonts/Geomanist-Light.ttf');
+	src: url('../fonts/Geomanist-Light.ttf');
 	src: format('truetype');
 }
 
@@ -21,7 +21,7 @@ color: #3e3e3e;
 
 /*..............top container...............*/
 
-.top-container {
+.container {
 	position:relative;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -31,8 +31,11 @@ color: #3e3e3e;
 	border:0;
 	margin: 0 auto;
     	max-width: 960px;
-    	width: 100%;
-    	min-height: 150px;
+    	width: 100%;	
+}
+
+.top-container {
+  min-height: 150px;
 }
 
 
@@ -146,7 +149,6 @@ cursor: pointer;
 }
 
 .nav {
-  margin-bottom: 48px;
    border-top: solid 1px #eaeaea;
    text-align: center;
 
@@ -172,6 +174,7 @@ cursor: pointer;
   position: relative;
   text-transform: uppercase;
 }
+
 .nav a {
   display: block;
   padding: 10px 45px;
@@ -194,6 +197,7 @@ cursor: pointer;
 }
 .nav li ul li {
   width: 200px;
+  text-transform: none;
 }
 .nav li ul a {
   border: none;
@@ -223,4 +227,35 @@ cursor: pointer;
 
 .text span {
   padding: 20px;
+}
+
+
+
+/*.......................box.............................*/
+
+
+.boxes .box span {
+    float: left;
+    width: 100%;
+    color: #c79e54;
+    border: 1px solid #eaeaea;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0 1px 0;
+}
+
+.box {
+    width: 50%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5px;
 }
