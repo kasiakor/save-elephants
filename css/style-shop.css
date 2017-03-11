@@ -271,6 +271,10 @@ cursor: pointer;
       height: 1000px;
 }
 
+.banner {
+  border-bottom: 1px solid #e3c086;
+}
+
 .banner  img {
     opacity: 0.7;
     width: 100%;
@@ -280,4 +284,39 @@ cursor: pointer;
     background-position: center;
     position: relative;
     margin: 35px 0;
+}
+
+
+
+/*...............products area.......................*/
+
+.products {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.bg-col {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f5f2ee;
+  width: 250px;
+  height: 250px;
+  z-index: 1;
+}
+
+.stretch {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+.bg-col .sale {
+    display: block;
+    width: 60px;
+    height: 62px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
