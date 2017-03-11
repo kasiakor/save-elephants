@@ -235,7 +235,6 @@ cursor: pointer;
 
 
 .boxes .box span {
-    float: left;
     width: 100%;
     color: #c79e54;
     border: 1px solid #eaeaea;
@@ -243,13 +242,16 @@ cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     padding: 5px 0 1px 0;
+    display: block;
+
 }
 
 .box {
     width: 50%;
-    float: left;
+    display: inline-block;
     text-align: center;
     box-sizing: border-box;
+    padding-bottom: 15px;
 }
 
 .left {
@@ -258,4 +260,24 @@ cursor: pointer;
 
 .right {
   padding-left: 5px;
+}
+
+/*.................main container.....................*/
+
+.main-container {
+      background-color: #f1e6d4;
+      border-top: 1px solid #e3c086;
+      border-bottom: 1px solid #e3c086;
+      height: 1000px;
+}
+
+.banner  img {
+    opacity: 0.7;
+    width: 100%;
+    clear: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 35px 0;
 }
