@@ -321,6 +321,15 @@ cursor: pointer;
     left: 10px;
 }
 
+/*.....................decor.......................*/
+
+.decor {
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 30px;
+}
+
+
 
 /*.....................footer.......................*/
 
@@ -342,7 +351,7 @@ footer .wrap .sub {
     color: #3e3e3e;
     width: 33%;
     padding: 27px 10px;
-    border-right: 1px solid #e9e4db;
+    border-right: 1px solid #eaeaea;
     font-size: 14px;
     text-align: center;
     box-sizing: border-box;
@@ -354,6 +363,19 @@ footer .wrap .sub ul {
   padding: 0;
   margin: 0;
 }
+
+footer .wrap .sub ul.first {
+  list-style-type: none;
+  padding-right: 85px;
+  margin: 0;
+}
+
+footer .wrap .sub ul.third {
+  list-style-type: none;
+  padding-left: 85px;
+  margin: 0;
+}
+
 
 footer .wrap .sub ul li strong {
   text-transform: uppercase;
