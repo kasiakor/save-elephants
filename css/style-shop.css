@@ -320,3 +320,54 @@ cursor: pointer;
     top: 10px;
     left: 10px;
 }
+
+
+/*.....................footer.......................*/
+
+footer {
+position: relative;
+height: auto;
+width: 100%;
+background: #fff;
+}
+
+footer .wrap {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+footer .wrap .sub {
+    position: relative;
+    display: inline-block;
+    color: #3e3e3e;
+    width: 33%;
+    padding: 27px 10px;
+    border-right: 1px solid #e9e4db;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+footer .wrap .sub ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .wrap .sub ul li strong {
+  text-transform: uppercase;
+  color: #555;
+  line-height: 30px;
+}
+
+
+.contact-set {
+
+  padding-top: 20px;
+}
+
+footer .wrap .sub:last-child {
+    border: 0px;
+}
+
