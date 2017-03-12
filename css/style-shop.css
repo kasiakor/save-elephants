@@ -266,8 +266,8 @@ cursor: pointer;
 
 .main-container {
       background-color: #f1e6d4;
-      border-top: 1px solid #e3c086;
-      border-bottom: 1px solid #e3c086;
+      border-top: 1px solid  #eaeaea;
+      border-bottom: 1px solid  #eaeaea;
       height: 1000px;
 }
 
@@ -344,6 +344,7 @@ footer .wrap {
     margin: 0 auto;
     white-space: nowrap;
     font-size: 0;
+    border-bottom: 1px solid #eaeaea;
 }
 footer .wrap .sub {
     position: relative;
@@ -393,3 +394,22 @@ footer .wrap .sub:last-child {
     border: 0px;
 }
 
+footer .payments {
+  background-color: #f5f2ee;
+  padding: 0;
+  margin:0;
+  text-align: center;
+}
+
+footer .safe-payments {
+  display: inline-block;
+}
+
+footer .safe-payments p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+footer .safe-payments img {
+  margin-bottom: 40px;
+}
