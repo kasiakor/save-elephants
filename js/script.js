@@ -78,59 +78,45 @@
 },
 {
 "product_id": "1_150",
-"description": "Handmade pendant made of glass on cabachon base",
+"description": "Elephant Candle",
 "collection": "best_seller",
-"product_type": "pendant",
+"product_type": "candle",
 "price": "12.00"	
 },
 {
 "product_id": "1_151",
-"description": "Handmade beautifully handcrafted made of glass on cabachon base",
-"collection": "limited_edition",
-"product_type": "pendant",
-"price": "10.00"	
+"description": "Elephant Candle",
+"collection": "best_seller",
+"product_type": "candle",
+"price": "15.00"	
 },
 {
 "product_id": "1_152",
-"description": "Handmade beautifully handcrafted made of glass on cabachon base",
+"description": "Elephant Candle",
 "collection": "new_arrivals",
-"product_type": "pendant",
-"price": "10.00"
-},
-{
-"product_id": "1_153",
-"description": "Handmade pendant made of glass on cabachon base",
-"collection": "sale",
-"product_type": "pendant",
-"price": "10.00"
-},
-{
-"product_id": "1_154",
-"description": "Handmade pendant made of glass on cabachon base",
-"collection": "sale",
-"product_type": "pendant",
-"price": "12.00"	
-},
-{
-"product_id": "1_155",
-"description": "Handmade pendant made of glass on cabachon base",
-"collection": "sale",
-"product_type": "pendant",
+"product_type": "candle",
 "price": "18.00"
 },
 {
-"product_id": "1_156",
-"description": "Handmade Mother & Baby Sterling Silver Elephant Necklace",
-"collection": "limited_edition",
-"product_type": "pendant",
-"price": "54.00"
+"product_id": "1_153",
+"description": "Elephant Candle",
+"collection": "sale",
+"product_type": "candle",
+"price": "12.00"
+},
+{
+"product_id": "1_154",
+"description": "Elephant Candle",
+"collection": "sale",
+"product_type": "candle",
+"price": "12.00"	
 },
 {
 "product_id": "2_150",
 "description": "T-shirt, size: M",
 "collection": "new_arrivals",
 "product_type": "t-shirt",
-"price": "22.00"	
+"price": "18.00"	
 },
 {
 "product_id": "2_151",
@@ -273,81 +259,46 @@
 "price": "17.00"	
 },
 {
-"product_id": "4_154",
-"description": "Elephant Decor",
-"collection": "best_seller",
-"product_type": "poster",
-"price": "17.00"	
-},
-{
-"product_id": "4_155",
-"description": "Elephant Decor",
-"collection": "sale",
-"product_type": "poster",
-"price": "17.00"	
-},
-{
 "product_id": "5_150",
 "description": "Elephant Cushion",
 "collection": "new_arrivals",
 "product_type": "cushion",
-"price": "19.00"	
+"price": "29.00"	
 },
 {
 "product_id": "5_151",
 "description": "Elephant Cushion",
 "collection": "new_arrivals",
 "product_type": "cushion",
-"price": "19.00"
+"price": "29.00"
 },
 {
 "product_id": "5_152",
 "description": "Elephant Cushion",
 "collection": "new_arrivals",
 "product_type": "cushion",
-"price": "19.00"	
+"price": "29.00"	
 },
 {
 "product_id": "5_153",
 "description": "Elephant Cushion",
 "collection": "sale",
 "product_type": "cushion",
-"price": "19.00"	
+"price": "13.00"	
 },
 {
 "product_id": "5_154",
 "description": "Elephant Cushion",
 "collection": "sale",
 "product_type": "cushion",
-"price": "19.00"	
+"price": "13.00"	
 },
 {
 "product_id": "5_155",
 "description": "Elephant Cushion",
 "collection": "best_seller",
 "product_type": "cushion",
-"price": "19.00"	
-},
-{
-"product_id": "5_156",
-"description": "Elephant Cushion",
-"collection": "best_seller",
-"product_type": "cushion",
-"price": "19.00"
-},
-{
-"product_id": "5_157",
-"description": "Elephant Cushion",
-"collection": "limited_edition",
-"product_type": "cushion",
-"price": "19.00"
-},
-{
-"product_id": "5_158",
-"description": "Elephant Cushion",
-"collection": "limited_edition",
-"product_type": "cushion",
-"price": "19.00"	
+"price": "23.00"	
 },
 {
 "product_id": "6_150",
@@ -406,11 +357,25 @@
 "price": "54.00"	
 },
 {
-"product_id": "7_156",
-"description": "Elephant Art",
-"collection": "sale",
-"product_type": "drawing",
-"price": "41.00"	
+"product_id": "8_150",
+"description": "Elephant Bed Linen",
+"collection": "new_arrivals",
+"product_type": "bed_linen",
+"price": "55.00"	
+},
+{
+"product_id": "8_151",
+"description": "Elephant Bed Linen",
+"collection": "new_arrivals",
+"product_type": "bed_linen",
+"price": "55.00"	
+},
+{
+"product_id": "8_152",
+"description": "Elephant Bed Linen",
+"collection": "new_arrivals",
+"product_type": "bed_linen",
+"price": "55.00"	
 }
 ]
 
