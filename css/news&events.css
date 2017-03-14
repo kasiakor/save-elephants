@@ -1,0 +1,190 @@
+
+@font-face {
+	font-family: 'Geomanist';
+	src: url('fonts/Geomanist-Light.ttf');
+	src: format('truetype');
+}
+
+body {
+font-family: 'Geomanist', Helvetica, sans-serif;
+font-size: 18px;
+line-height: 1.44444;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: #3e3e3e;
+
+}
+
+/*.........navigation...........*/
+
+ul.nav__list {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 0;
+   
+}
+
+ul.nav__list li {
+    display: inline-block;
+}
+
+ul.nav__list li a {
+    display: block;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: .06em;
+
+}
+
+.border {
+    position: relative;
+}
+
+.border:hover::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 0;    
+    left:0;
+    bottom: 0px; /*Change this to increase/decrease distance*/
+    border-bottom: 2px solid #ab8f61;  
+}
+
+/*...........Introduction...........*/
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-weight: 100;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+/*......................news banner .......................*/
+
+.news-banner img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*......................news & events .......................*/
+
+.box {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+
+.news {
+    border-right: 1px solid #eaeaea;
+}
+
+
+/*.......................footer........................*/
+
+
+footer {
+position: relative;
+height: auto;
+width: 100%;
+background: #a7a7a7;
+}
+
+.outer {
+    padding: 12px 0;
+}
+footer .wrap {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+footer .wrap .sub {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 20%;
+    padding: 27px 10px;
+    border-right: 1px solid #e9e4db;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+footer .wrap .sub:last-child {
+    border: 0px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#github-icon {
+    padding-bottom: 8px;
+}
+
+
+@media screen and (max-width: 1140px) {
+    footer .wrap {
+        white-space: normal;
+    }
+
+    footer .wrap .sub {
+          width: 33%;
+    }
+}
+
+@media screen and (max-width: 520px)  {
+
+    footer .wrap .sub {
+         width: 100%;
+         border: none;
+
+    }   
+    footer .wrap .sub::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background-color: #e9e4db;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 27px;
+    }
+
+    footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
+        height: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 746px)  {
+
+    ol.horizontal-timeline li {
+         text-align: center;
+    }   
+
+    .evolution {
+        text-align: center;
+    }
+
+    .item-2, .item-1  {
+        width: 100%;
+  }
+}
