@@ -76,9 +76,14 @@ section {
 
 /*......................news banner .......................*/
 
+section.banner {
+    padding-top: 0;
+}
+
 .news-banner img {
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 
 /*......................news & events .......................*/
@@ -86,15 +91,73 @@ section {
 .box {
     width: 50%;
     display: inline-block;
-    text-align: center;
     box-sizing: border-box;
     padding-bottom: 15px;
+    text-align: left;
+    vertical-align: top;
+    color: #3e3e3e;
+    font-size: 13px;
 }
 
-.news {
-    border-right: 1px solid #eaeaea;
+.title {
+    font-weight: 100;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea; 
+    font-size: 20px;
 }
 
+.left {
+    padding-right: 40px;
+}
+
+.inner-box {
+    position: relative;
+    min-height: 
+}
+
+.events-img {
+    margin: 0px 10px 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.events .info a {
+    display: block;
+}
+
+.events .info {
+padding-left: 100px;
+font-weight: 100;
+line-height: 170%;
+
+}
+
+.events a {
+    text-decoration: none;
+}
+
+.events a:visited {
+    color: #3e3e3e;
+}
+
+.events-banner {
+    width: 100%;
+
+}
+
+h3.event-title {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h3.event-title a {
+    padding-bottom: 20px;
+}
+
+.info .events-banner {
+    padding-top: 20px;
+}
 
 /*.......................footer........................*/
 
