@@ -111,33 +111,54 @@ section.banner {
 }
 
 .inner-box {
-    position: relative;
     min-height: 
 }
 
-.events-img {
+.info {
+    position: relative;
+}
+
+.news-img {
+    padding-top: 20px;
+}
+
+.news .info a  {
+    padding: 20px 0;
+}
+
+.news-title {
+    padding: 0;
+    margin: 0;
+}
+
+
+.events-img, .news-img {
     margin: 0px 10px 0px 0px;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.events .info a {
+.events .info a, .news .info a {
     display: block;
+    padding-left: 10px;
 }
 
-.events .info {
+.events .info, .news .info {
 padding-left: 100px;
 font-weight: 100;
 line-height: 170%;
+padding-bottom: 10px;
+border-bottom: 1px solid #eaeaea;
 
 }
 
-.events a {
+.events a, .news a {
     text-decoration: none;
 }
 
-.events a:visited {
+.events a:link, a:visited,
+.news a:link, a:visited {
     color: #3e3e3e;
 }
 
