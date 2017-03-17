@@ -1,0 +1,299 @@
+@font-face {
+	font-family: 'Geomanist';
+	src: url('fonts/Geomanist-Light.ttf');
+	src: format('truetype');
+}
+
+body {
+font-family: 'Geomanist', Helvetica, sans-serif;
+font-size: 18px;
+line-height: 1.44444;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: #3e3e3e;
+
+}
+
+/*.........navigation...........*/
+
+ul.nav__list {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 0;
+   
+}
+
+ul.nav__list li {
+    display: inline-block;
+}
+
+ul.nav__list li a {
+    display: block;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: .06em;
+
+}
+
+.border {
+    position: relative;
+}
+
+.border:hover::after{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 0;    
+    left:0;
+    bottom: 0px; /*Change this to increase/decrease distance*/
+    border-bottom: 2px solid #ab8f61;  
+}
+
+
+
+/*...........Introduction...........*/
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-weight: 100;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+/*.......................logo........................*/
+section.banner {
+    padding-top: 0;
+}
+
+.dswt-banner img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.dswt-logo {
+    float: left;
+    padding-right: 40px;
+}
+
+.dswt-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 85px;
+    color: #538b5d;
+    font-weight: 500;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.dswt-text {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: #3e3e3e;
+    font-weight: 300;
+    text-align: left;
+    max-height: 140px;
+
+}
+
+.protect {
+    font-family: 'Tangerine', cursive;
+    font-size: 30px;
+    color: #3e3e3e;
+    text-align: right;
+ 
+}
+
+/*.......................foster programme........................*/
+
+.adopt-pgm {
+    text-align: center;
+}
+
+
+
+/*.......................slide show........................*/
+
+@-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+#stage {
+
+    margin: 1em auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+    padding-left: 180px;
+    height: 160px;
+}
+
+#spinner {
+  -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 20s;
+  -webkit-transform-style: preserve-3d;
+-webkit-transform-origin: 180px 0 0;
+}
+#spinner:hover {
+  -webkit-animation-play-state: paused;
+}
+
+#spinner img {
+  position: absolute;
+  border: 1px solid #ccc;
+  background: rgba(255,255,255,0.8);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+/*.......................adop content........................*/
+.adopt {
+    text-align: center;
+}
+
+span {
+    font-size: 25px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.adopt-gallery {
+    position: relative;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+} 
+
+.adopt-story .adopt-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.adopt-text {
+   
+    text-align: justify;
+    font-size: 16px;
+    padding: 40px 0;
+ 
+}
+
+/*.......................footer........................*/
+
+
+footer {
+position: relative;
+height: auto;
+width: 100%;
+background: #98c19a;
+}
+
+.outer {
+    padding: 12px 0;
+}
+footer .wrap {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+footer .wrap .sub {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 20%;
+    padding: 27px 10px;
+    border-right: 1px solid #e9e4db;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+footer .wrap .sub:last-child {
+    border: 0px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#github-icon {
+    padding-bottom: 8px;
+}
+
+
+@media screen and (max-width: 1140px) {
+    footer .wrap {
+        white-space: normal;
+    }
+
+    footer .wrap .sub {
+          width: 33%;
+    }
+}
+
+@media screen and (max-width: 520px)  {
+
+    footer .wrap .sub {
+         width: 100%;
+         border: none;
+
+    }   
+    footer .wrap .sub::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background-color: #e9e4db;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 27px;
+    }
+
+    footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
+        height: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 746px)  {
+
+    ol.horizontal-timeline li {
+         text-align: center;
+    }   
+
+    .evolution {
+        text-align: center;
+    }
+
+    .item-2, .item-1  {
+        width: 100%;
+  }
