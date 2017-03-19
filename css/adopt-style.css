@@ -54,7 +54,7 @@ ul.nav__list li a {
     height: 0;    
     left:0;
     bottom: 0px; /*Change this to increase/decrease distance*/
-    border-bottom: 2px solid #ab8f61;  
+    border-bottom: 2px solid #7ba683;  
 }
 
 
@@ -95,7 +95,7 @@ section.banner {
     font-size: 85px;
     color: #538b5d;
     font-weight: 500;
-    padding: 40px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -121,8 +121,64 @@ section.banner {
 
 .adopt-pgm {
     text-align: center;
+    font-size: 25px;
+    padding-top: 75px;
+    padding-bottom: 60px;
+    border-top: 1px solid #98c19a;
 }
 
+.adoption-docs {
+    position:relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: justify;
+    font-size: 0;
+    padding: 45px 60px;
+}
+
+
+.adoption-docs  img {
+    display: inline-block;
+    box-shadow: 0 10px 6px -6px #777777;
+    
+}
+
+.docs-img {
+position: relative;
+  overflow: hidden;
+  transition: border-bottom-right-radius 1s, box-shadow .8s, transform 1s;
+}
+
+.docs-img :after {
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+    width: 0px;
+    height: 0px;
+    content: "";
+    background-color: #E7E7E7;
+    box-shadow: -5px -5px 30px 2px #000;
+    transform: skew(7deg);
+    transition: width 1s, height 1s;
+  }
+
+  .docs-img:hover {
+    border-bottom-right-radius: 120px;
+    box-shadow: 5px 5px 30px 2px #000;
+    transform: skew(-1deg);
+}
+
+.docs-img:hover:after {
+    width: 115px;
+    height: 90px;
+    border-top-left-radius: 1px;
+
+}
+
+.adoption-docs::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
 
 
 /*.......................slide show........................*/
@@ -166,45 +222,6 @@ section.banner {
   box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
 }
 
-
-
-
-/*.......................adop content........................*/
-.adopt {
-    text-align: center;
-}
-
-span {
-    font-size: 25px;
-    font-weight: 300;
-    width: 100%;
-}
-
-.adopt-gallery {
-    position: relative;
-    text-align: center;
-}
-
-.box {
-    display: inline-block;
-    vertical-align: top;
-    padding: 20px;
-} 
-
-.adopt-story .adopt-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-
-.adopt-text {
-   
-    text-align: justify;
-    font-size: 16px;
-    padding: 40px 0;
- 
-}
 
 /*.......................footer........................*/
 
