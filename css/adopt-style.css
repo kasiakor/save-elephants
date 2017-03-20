@@ -136,19 +136,15 @@ section.banner {
 }
 
 
-.adoption-docs  img {
-    display: inline-block;
-    box-shadow: 0 10px 6px -6px #777777;
-    
-}
-
 .docs-img {
+    display: inline-block;
+    box-shadow: 0 10px 6px -6px #aaa;
 position: relative;
   overflow: hidden;
   transition: border-bottom-right-radius 1s, box-shadow .8s, transform 1s;
 }
 
-.docs-img :after {
+.docs-img:after {
     position: absolute;
     bottom: 0px;
     right: -10px;
@@ -162,14 +158,14 @@ position: relative;
   }
 
   .docs-img:hover {
-    border-bottom-right-radius: 120px;
-    box-shadow: 5px 5px 30px 2px #000;
+    border-bottom-right-radius: 43px;
+    box-shadow: 3px 3px 20px 2px #aaa;
     transform: skew(-1deg);
 }
 
 .docs-img:hover:after {
-    width: 115px;
-    height: 90px;
+    width: 38px;
+    height: 30px;
     border-top-left-radius: 1px;
 
 }
