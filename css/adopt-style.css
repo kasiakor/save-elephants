@@ -241,12 +241,30 @@ position: relative;
     font-size: 35px;
     color: #3e3e3e;
     font-weight: 300;
-    padding-top: 180px;
+    padding: 180px 0 50px 0;
     text-align: center;
     max-height: 140px;
 
 }
 
+.link {
+    text-align: center;
+
+}
+
+.dswt-link {
+    display: inline-block;
+    padding-top: 60px;
+    text-decoration: none;
+}
+
+.dswt-link:link, .dswt-link:visited{
+    color: #3e3e3e;
+}
+
+.dswt-link:hover {
+    color: #538b5d;
+}
 
 
 /*.......................footer........................*/
