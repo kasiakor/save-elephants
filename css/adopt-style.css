@@ -123,9 +123,14 @@ section.banner {
     text-align: center;
     font-size: 25px;
     padding-top: 75px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     border-top: 1px solid #98c19a;
 }
+
+.adopt-info {
+    padding: 30px 0;
+}
+
 
 .adoption-docs {
     position:relative;
