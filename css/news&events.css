@@ -55,7 +55,7 @@ ul.nav__list li a {
     height: 0;    
     left:0;
     bottom: 0px; /*Change this to increase/decrease distance*/
-    border-bottom: 2px solid #a7a7a7;  
+    border-bottom: 2px solid #d10a11;  
 }
 
 /*...........Introduction...........*/
@@ -162,6 +162,12 @@ border-bottom: 1px solid #eaeaea;
     color: #3e3e3e;
 }
 
+.events a:hover,
+.news a:hover {
+    color:#1380a1;
+}
+
+
 .events-banner {
     width: 100%;
 
@@ -188,7 +194,7 @@ footer {
 position: relative;
 height: auto;
 width: 100%;
-background: #a7a7a7;
+background: #c33338;
 }
 
 .outer {
