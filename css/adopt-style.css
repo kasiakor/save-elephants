@@ -260,6 +260,7 @@ position: relative;
     display: inline-block;
     padding-top: 60px;
     text-decoration: none;
+    transition: 1s all;
 }
 
 .dswt-link:link, .dswt-link:visited{
@@ -268,6 +269,8 @@ position: relative;
 
 .dswt-link:hover {
     color: #538b5d;
+    transition: 1s color, 1s letter-spacing;
+    letter-spacing: .3em;
 }
 
 
