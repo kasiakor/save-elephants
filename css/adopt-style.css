@@ -260,7 +260,12 @@ position: relative;
     display: inline-block;
     padding-top: 60px;
     text-decoration: none;
+    -moz-transition: 1s all;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
     transition: 1s all;
+    
+    
 }
 
 .dswt-link:link, .dswt-link:visited{
@@ -269,8 +274,13 @@ position: relative;
 
 .dswt-link:hover {
     color: #538b5d;
-    transition: 1s color, 1s letter-spacing;
     letter-spacing: .3em;
+    -moz-transition: 1s color, 1s letter-spacing;
+    -webkit-transition: 1s color, 1s letter-spacing; 
+    -o-transition: 1s color, 1s letter-spacing;
+    transition: 1s color, 1s letter-spacing;   /*all*/
+
+    
 }
 
 
