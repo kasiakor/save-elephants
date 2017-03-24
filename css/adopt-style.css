@@ -275,10 +275,10 @@ position: relative;
 .dswt-link:hover {
     color: #538b5d;
     letter-spacing: .3em;
-    -moz-transition: 1s color, 1s letter-spacing;
-    -webkit-transition: 1s color, 1s letter-spacing; 
-    -o-transition: 1s color, 1s letter-spacing;
-    transition: 1s color, 1s letter-spacing;   /*all*/
+    -moz-transition: 0.1s color, 1s letter-spacing;
+    -webkit-transition: 0.1s color, 1s letter-spacing; 
+    -o-transition: 0.1s color, 1s letter-spacing;
+    transition: 0.1s color, 1s letter-spacing;   /*all*/
 
     
 }
