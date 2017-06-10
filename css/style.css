@@ -38,7 +38,8 @@ ul.nav__list li a {
     display: block;
     color: #fff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 7px;
+    margin-left: 18px;
     text-decoration: none;
     letter-spacing: .06em;
 
