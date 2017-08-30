@@ -147,7 +147,6 @@ section.banner {
     font-weight: 300;
     text-align: left;
     max-height: 140px;
-
 }
 
 .protect {
@@ -443,21 +442,6 @@ footer .wrap .sub:last-child {
         height: 0;
     }
 
-  }
-
-
-  @media screen and (max-width: 746px)  {
-
-    ol.horizontal-timeline li {
-         text-align: center;
-    }   
-
-    .evolution {
-        text-align: center;
-    }
-
-    .item-2, .item-1  {
-        width: 100%;
   }
 
 @media screen and (max-width: 450px)  {

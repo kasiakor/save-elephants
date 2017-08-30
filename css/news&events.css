@@ -272,7 +272,6 @@ footer .wrap .sub:last-child {
     padding-bottom: 8px;
 }
 
-
 @media screen and (max-width: 1140px) {
     footer .wrap {
         white-space: normal;
@@ -307,17 +306,8 @@ footer .wrap .sub:last-child {
 
   }
 
-  @media screen and (max-width: 746px)  {
-
-    ol.horizontal-timeline li {
-         text-align: center;
-    }   
-
-    .evolution {
-        text-align: center;
-    }
-
-    .item-2, .item-1  {
+@media screen and (max-width: 990px)  {
+    .left, .right {
         width: 100%;
-  }
+    }
 }

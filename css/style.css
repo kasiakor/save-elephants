@@ -195,6 +195,10 @@ section {
 
 /*..............timeline.....................*/
 
+.evolution-click {
+    text-align: center;
+}
+
 .horizontal-timeline > nav {
     border-top: 1px solid #0D2A4A;
     display: block;
@@ -373,10 +377,25 @@ footer .wrap .sub:last-child {
     footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
         height: 0;
     }
-
+    
+    section {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    
+    .intro {
+        font-size: 20px;
+    }
+    
   }
 
+
   @media screen and (max-width: 746px)  {
+      
+    ol.horizontal-timeline {
+        margin: 0;
+        padding: 0;
+    }
 
     ol.horizontal-timeline li {
          text-align: center;

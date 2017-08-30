@@ -5,14 +5,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<title>Save Elephants</title>
-	<link rel="stylesheet" href="ng/dist/css/nanogallery.min.css" />
+	<link rel=stylesheet href="main_style.css" />
 	<link rel="stylesheet" href="css/gallery.css" />
 </head>
-	
 <body>
 	<header id="header" role="banner">
 		<a href="/" class="header__logo"></a>
-			<div class="global-nav-container elephant-video">
+			<div class="global-nav-container">
 				<nav role="navigation" class="global-nav nav">
 					<ul class="nav__list">
 						<li role="presentation">
@@ -20,9 +19,6 @@
 						</li>
 						<li role="presentation">
 						<a class="border" href="news&events.html">News & Events</a>
-						</li>
-						<li role="presentation">
-						<a class="border" href="shop.html">Shop</a>
 						</li>
 						<li role="presentation">
 						<a class="border" href="gallery.html" class="current">Gallery</a>
@@ -38,18 +34,57 @@
 			</div>
 	</header>
 	<main id="content" role="main">
+        <div class="page-container">
+            <div class="dswt-title" style="font-family: cursive;">Madame Daphne Sheldrick,</div>
+            <div class="dswt-text">a Kenyan-British author, conservationist and expert in animal husbandry, particularly the raising and reintegrating of orphaned elephants into the wild for over 30 years.</div>
+        </div>	
 		<section>
-            <div id="nanoGallery3">
-                <a href="img/img-gallery/image-1.jpg" data-ngthumb="img/img-gallery/image-1.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-2.jpg" data-ngthumb="img/img-gallery/image-2.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-3.jpg" data-ngthumb="img/img-gallery/image-3.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-4.jpg" data-ngthumb="img/img-gallery/image-4.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-5.jpg" data-ngthumb="img/img-gallery/image-5.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-6.jpg" data-ngthumb="img/img-gallery/image-6.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-7.jpg" data-ngthumb="img/img-gallery/image-7.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-8.jpg" data-ngthumb="img/img-gallery/image-8.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-9.jpg" data-ngthumb="img/img-gallery/image-9.jpg" data-ngdesc="Description1">Title Image1</a>
-                <a href="img/img-gallery/image-10.jpg" data-ngthumb="img/img-gallery/image-10.jpg" data-ngdesc="Description1">Title Image1</a>
+			<div class="gallery page-container">
+                <div class="photo">
+                    <img src="img/img-gallery/image-1.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-2.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-11.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-12.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-5.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-6.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-14.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-13.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-15.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-10.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-4.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-3.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-7.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-8.jpg">
+                </div><!--
+                --><div class="photo">
+                    <img src="img/img-gallery/image-9.jpg">
+                </div>
             </div>
 		</section>	
 	</main>
@@ -83,11 +118,5 @@
 		</div>
 	</footer>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="ng/dist/jquery.nanogallery.min.js"></script>
-	<script>
-        $(document).ready(function () {
-            $("#nanoGallery3").nanoGallery();
-  });
-    </script>
 </body>
 </html>
