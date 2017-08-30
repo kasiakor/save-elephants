@@ -183,3 +183,36 @@ footer .wrap .sub:last-child {
 }
 
 
+@media screen and (max-width: 1140px) {
+    footer .wrap {
+        white-space: normal;
+    }
+
+    footer .wrap .sub {
+          width: 33%;
+    }
+}
+
+@media screen and (max-width: 520px)  {
+
+    footer .wrap .sub {
+         width: 100%;
+         border: none;
+
+    }   
+    footer .wrap .sub::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background-color: #e9e4db;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 27px;
+    }
+
+    footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
+        height: 0;
+    }
+
+  }
