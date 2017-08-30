@@ -117,6 +117,24 @@ ul.nav__list li a:focus::after {
 
 /*.......................gallery........................*/
 
+.dswt-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 85px;
+    color: #538b5d;
+    font-weight: 500;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.dswt-text {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: #3e3e3e;
+    font-weight: 100;
+    text-align: left;
+    max-height: 140px;
+}
+
 .gallery {
 display: block;
 text-align: center;
@@ -134,6 +152,7 @@ padding: 20px;
 
 .gallery .photo img {
     width: 150px;
+    padding-top: 50px;
 }
 
 
@@ -194,6 +213,7 @@ footer .wrap .sub:last-child {
 }
 
 @media screen and (max-width: 520px)  {
+
 
     footer .wrap .sub {
          width: 100%;

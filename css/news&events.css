@@ -283,7 +283,20 @@ footer .wrap .sub:last-child {
 }
 
 @media screen and (max-width: 520px)  {
-
+    
+    section {
+        padding-bottom: 0;
+    }
+    
+   .events .info, .news .info {
+        padding: 0;
+    }
+    
+    .events-img, .news-img {
+        position: relative;
+        padding-bottom: 10px;
+    }
+    
     footer .wrap .sub {
          width: 100%;
          border: none;
